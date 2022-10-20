@@ -1,0 +1,404 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+}
+/* start header  */
+.header{
+    position: relative;
+    top: 0;   
+}
+.hr{
+    width: 100%;
+    height: 600px;
+    right: 100px;
+}
+.img1{
+    position: absolute;
+    width: 1300px;
+    height: 150px;
+    right: 300px;
+    
+    
+    top: 500px;
+}
+
+/* start div2  */
+.div2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 65px;
+    margin-left: 700px;
+}
+.image2{
+    width: 270px;
+    height: 400px;
+    position: absolute;
+    top: 105px;
+    right: 240px;
+}
+.imagee3{
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    top: 450px;
+    right:290px ; 
+}
+.you-sell{
+    position: absolute;
+    top: 230px;
+    left: 110px;
+    font-size: 25px;
+}
+.you-sell h3{
+    color: rgb(82, 74, 74);
+    font-weight: bold;
+    font-size: 40px;
+}
+    
+.you-sell p{
+    color: rgb(139, 148, 155);
+}
+.span{
+    color: rgb(152, 54, 243);
+}
+/* end div2  */
+/* end header  */
+
+
+/* start nav  */
+.div-nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+}
+
+/* start nav-left  */
+.left-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 10px;
+}
+.left-nav a{
+    color: blueviolet;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+.home{
+    border-bottom: 2px solid rebeccapurple;
+}
+/* end nav-left  */
+
+
+
+/* start nav-right  */
+.right-nav{
+    margin-right: 80px;
+}
+.right-nav button{
+    position: absolute;
+    top: 60px;
+    right: 180px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    color: rgb(131, 131, 122);
+}
+/* end nav-right  */
+/* end nav  */
+
+
+/* start section  */
+.sec{
+    width: 100%;
+    height: 800px;
+    margin-top: 110px;
+    position: relative;
+}
+/* start section-left  */
+.section-left{
+    width: 150px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.super{
+    width: 200px;
+    margin-left: 40px;
+    color: grey;
+}
+.section-left p{
+    margin-top:10px ;
+    width: 350px;
+    font-weight: bold;
+    color: rgb(149, 156, 161);
+}
+/* end section-left  */
+
+/* start section-middle  */
+.section-middle{
+    width: 150px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 590px;
+}
+.reak{
+    width: 200px;
+    margin-left: 40px;
+    color: grey;
+}
+.section-middle p{
+    margin-top:10px ;
+    width: 350px;
+    font-weight: bold;
+    color: rgb(149, 156, 161);
+}
+/* end section-middle  */
+
+/* start section-left-right  */
+.section-left-right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;  
+}
+
+.kudzoka{
+    width: 150px;
+    height: 100px;
+    margin-left: 100px;
+    position: relative;
+}
+.kudzoka p{ 
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    color: aliceblue;
+}
+.kudzoka h1{
+    position: absolute;
+    top: 120px;
+    left: 79px;
+    font-size: 35px;
+    font-weight:bold;
+    color: aliceblue;
+}
+
+.kudz{
+    width: 300px;
+    height: 300px;
+}
+
+.disk{
+    margin-right: 60px;
+}
+.disk h3{
+    width: 180px;
+    margin-left: 100px;
+    color: grey;
+}
+.disk p{
+    width: 350px;
+    margin-top:10px ;
+    font-weight: bold;
+    color: rgb(149, 156, 161);
+}
+.second{
+    margin-left: 230px;
+    margin-top: -80px;
+    width:1090px ;
+    height: 585px;
+    position: absolute;
+    bottom: 1500px;
+    top: 0px ;
+    left: ;
+}
+/* end section-left-right   */
+/* end section */
+
+/* start article  */
+.article{
+    width: 100%;
+    height:550px;
+    margin-top: 100px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around; 
+}
+.grop1{
+    width: 180px;
+    margin-left: 150px;
+}
+.grop2{
+    width: 180px;
+    margin-right: 150px;
+}
+/* start middle  */
+.middle{
+    margin-top: -80px;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+.middle-h3{
+    top: 0px;
+    width: 300px;
+    color:grey ;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 90px;
+}
+.middle-p{
+    top: 0px;
+    width: 300px;
+    color:rgb(149, 156, 161) ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+/* end middle  */
+/* end article  */
+
+
+/* start footer  */
+/* start-img-footer-rlative  */
+.img-footer-relative{
+    position: relative;
+    top: 90px;
+    width: 100%;
+    margin-top: -100px;
+}
+/* end-img-footer-rlative  */
+
+/* start-footer-left  */
+.img-all-footer{
+    position: absolute;  
+}
+/* start-apple-play store */
+.apple-phone{
+}
+.apple{
+    border: 1px solid white;
+    padding-top:5px;
+    padding-right:90px ;
+    padding-bottom: 5px;
+    padding-left: 10px ;
+    background-color: antiquewhite;
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+    border-radius: 5px;
+}
+.apple-a{ 
+    width: 100px;
+    padding-bottom:15px ;
+    position: absolute;
+    bottom:153px;
+    left: 200px;
+    text-decoration: none;
+}
+.play{
+    border: 3px solid white;
+    padding-top:5px;
+    padding-right:90px ;
+    padding-bottom: 5px;
+    padding-left: 10px ;
+    background-color: antiquewhite;
+    position: absolute;
+    bottom:150px;
+    left: 300px;
+    border-radius: 5px;
+}
+.play-a{
+    width: 100px;
+    padding-bottom:15px ;
+    
+    position: absolute;
+    bottom: 153px;
+    left: 350px;
+    text-decoration: none;
+}
+/* end-apple-play store */
+
+/* start-icons  */
+.icon{
+    display: flex;
+    position: absolute;
+    bottom:100px;
+    left: 145px;
+    color: black;
+
+    width: 50px;
+}
+.icon a {
+    padding: 5px;
+}
+/* end-icons  */
+
+/* start-list-links  */
+.a2{  
+    display: flex;
+    position: absolute;
+    left: 150px;
+    bottom: 85px;
+}
+.a2 a{
+    width: 100px;
+    padding:0px ;
+    text-decoration: none;
+    color: rgb(246, 248, 250);
+}
+/* end-list links  */
+/* end-footer-left  */
+
+/* start-footer-right  */
+.two{
+    width: 650px;
+    height: 450px;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 570px;
+}
+.icons2 ul{
+display: flex;  
+list-style: none; 
+margin-left: 150px;
+margin-top: 0;
+padding-top: 0; 
+}
+.icons2 li{
+    padding-right: 10px;
+    color: white;
+    background-color: white;
+}
+.linkss a{
+    text-decoration: none;
+    color: white;
+}
+
+/* end footer right  */
+/* end footer  */
+Footer
